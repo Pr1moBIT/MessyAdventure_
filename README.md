@@ -27,7 +27,6 @@ Analizar patrones de ventas de modelos coleccionables, identificar productos est
 
 1. **Clonar el repositorio**
 git clone https://github.com/Pr1moBIT/MessyAdventure_.git
-cd CurlyADv
 
 2. **Instalar dependencias**
 pip install pandas numpy matplotlib jupyter
