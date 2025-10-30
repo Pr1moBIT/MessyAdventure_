@@ -26,7 +26,7 @@ Analizar patrones de ventas, identificar productos estrella, evaluar estacionali
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
-git clone https://github.com/Pr1moBIT/CurlyADv.git
+git clone https://github.com/Pr1moBIT/MessyAdventure_.git
 cd CurlyADv
 
 2. **Instalar dependencias**
@@ -34,9 +34,6 @@ pip install pandas numpy matplotlib jupyter
 
 3. **Iniciar Jupyter Notebook**
 jupyter notebook
-
-4. **Abrir el notebook**
-Navega a `predictive sales model.ipynb` en el navegador
 
 ## 🗄️ Estructura de la Base de Datos
 
@@ -80,7 +77,7 @@ La base de datos `classic.db` contiene las siguientes tablas principales:
 ## 💡 Convenciones del Código
 
 ### Nomenclatura en Español
-unidades_totales           # Total units
+unidades_totales          # Total units
 ingresos_totales          # Total revenue
 porcentaje_participacion  # Market share percentage
 precio_promedio_unidad    # Average unit price
@@ -130,12 +127,6 @@ df = pd.read_sql(q, con)
 - Baja frecuencia + Bajo volumen por pedido
 - **Acción**: Evaluar descontinuación o cambio de estrategia
 
-## 🚀 Uso del Proyecto
 
-### Ejecutar Análisis Completo
-1. Abrir `predictive sales model.ipynb`
-2. Ejecutar celdas secuencialmente (Shift + Enter)
-3. Revisar outputs y visualizaciones
-
-**Proyecto**: [CurlyADv](https://github.com/Pr1moBIT/CurlyADv)
+**Proyecto**: [MessyAdventure_](https://github.com/Pr1moBIT/MessyAdventure_)
 **Autor**: Pr1moBIT
