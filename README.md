@@ -1,12 +1,12 @@
-# 📊 Modelo Predictivo de Ventas - Classic Cars
+# 📊 Modelo Predictivo de Ventas - Classic Cars Models
 
 ## 📝 Descripción del Proyecto
 
-Proyecto de análisis de datos enfocado en ventas de autos clásicos utilizando una base de datos SQLite. El análisis se realiza mediante Jupyter Notebooks con consultas SQL avanzadas y visualizaciones con matplotlib, proporcionando insights estratégicos para la toma de decisiones comerciales.
+Proyecto de análisis de datos enfocado en ventas de modelos a escala y maquetas de autos clásicos coleccionables. Estos productos incluyen réplicas detalladas, modelos de exhibición y piezas coleccionables que recrean vehículos icónicos de la historia automotriz. El análisis se realiza mediante Jupyter Notebooks con consultas SQL avanzadas y visualizaciones con matplotlib, proporcionando insights estratégicos para la toma de decisiones comerciales en el mercado de coleccionismo automotriz.
 
 ## 🎯 Objetivo
 
-Analizar patrones de ventas, identificar productos estrella, evaluar estacionalidad y generar recomendaciones basadas en datos para optimizar el inventario y estrategias de marketing.
+Analizar patrones de ventas de modelos coleccionables, identificar productos estrella en el catálogo de réplicas, evaluar estacionalidad del mercado de coleccionismo y generar recomendaciones basadas en datos para optimizar el inventario y estrategias de marketing enfocadas en coleccionistas y entusiastas del modelismo automotriz.
 
 ## 🔧 Tecnologías Utilizadas
 
@@ -39,9 +39,9 @@ jupyter notebook
 
 La base de datos `classic.db` contiene las siguientes tablas principales:
 
-- **products** - Catálogo de productos (autos clásicos)
-- **orderDetails** - Detalles de transacciones
-- **orders** - Información de órdenes con fechas
+- **products** - Catálogo de modelos a escala y maquetas coleccionables (réplicas de autos clásicos)
+- **orderDetails** - Detalles de transacciones de ventas
+- **orders** - Información de órdenes con fechas de compra
 
 ### Relaciones Clave
 - `products.productCode` ↔ `orderDetails.productCode`
